@@ -18,11 +18,13 @@ public class JavaCollections
        Hashtable<Integer, String> z = new Hashtable(); 
        x.addElement(1); 
        x.addElement(2); 
-       z.put(1,"Bort"); 
-       z.put(2,"4Bort");
+       z.put(1,"Bert"); 
+       z.put(2,"Ernie");
        
         System.out.println(arr[0]); 
         System.out.println(x.elementAt(0)); 
         System.out.println(z.get(1)); 
+        System.out.println(arr[1]);
+        System.out.println(z.get(2));
     }
 }
