@@ -6,6 +6,10 @@
 package javacollections;
 import java.io.*;
 import java.util.*;
+import java.util.Map;
+import javacollections.NewList;
+import javacollections.NewMap;
+import javacollections.TreeMap1;
 /**
  *
  * @author Poozer
@@ -26,5 +30,24 @@ public class JavaCollections
         System.out.println(z.get(1)); 
         System.out.println(arr[1]);
         System.out.println(z.get(2));
+        
+        System.out.println("***This is where we start the Map section.***");
+        NewMap Map = new NewMap();
+        Map.RunMap();
+        
+        System.out.println("***This is where we start the List section.***");
+        NewList List = new NewList();
+        List.RunAndShowLists();
+        
+        System.out.println("***This is where we start the TreeMap section.***");
+        Map<String, String> hashMap = new HashMap<>();
+        hashMap.put("1", "Bert"); 
+        hashMap.put("2", "Ernie"); 
+        hashMap.put("3", "Elmo");
+        TreeMap1 Show = new TreeMap1();
+        Show.RunTreeMap();
+        
+        System.out.println("***This is where we start the Lists section.***");
+        
     }
 }
