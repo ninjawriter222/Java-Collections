@@ -47,7 +47,5 @@ public class JavaCollections
         TreeMap1 Show = new TreeMap1();
         Show.RunTreeMap();
         
-        System.out.println("***This is where we start the Lists section.***");
-        
     }
 }
